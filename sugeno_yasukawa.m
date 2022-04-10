@@ -112,7 +112,7 @@ disp('---------------------------------------')
  for n=1:vari_num
     
 q=[G,n];
-K=givetekrar(q,vari_num);
+K=giverep(q,vari_num);
 Xin=[];
 for i=1:round
     if K(i) >= 1
